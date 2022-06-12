@@ -2,6 +2,8 @@
 #include "EspMQTTClient.h"
 #include "string"
 
+#define ADC_VOLTAGE_DIVIDER 44.551316985
+//#define ENABLE_ADC_SLEEP
 
 //Version
 String roombotVersion = "0.1.3";
