@@ -23,8 +23,6 @@ EspMQTTClient mqttClient(
 const char *APssid = "Roombot";
 const char *APpassword = "momo2021";
 
-
-
 //MQTT Settings
 
 #define MQTT_Server "192.168.x.x"
