@@ -1,6 +1,5 @@
 
-#include "EspMQTTClient.h"
-#include "string"
+//#include "EspMQTTClient.h"
 
 #define ADC_VOLTAGE_DIVIDER 44.551316985
 //#define ENABLE_ADC_SLEEP
@@ -11,15 +10,12 @@ String WMode = "1";
 
 //WIFI Settings
 #define HOSTNAME "Roomba"
-#define SSID "Alice im WLAN"
-#define SSID_PASSWORD "string"
+String SSID = "Alice im WLAN";
+String SSID_PASSWORD = "string";
 
-EspMQTTClient mqttClient(
-  "SSID",
-  "SSID_PASSWORD",
-  "192.168.1.100",
-  "HOSTNAME"
-);
+
+
+//EspMQTTClient mqttClient("SSID","SSID_PASSWORD","192.168.1.100","HOSTNAME";
 
 // WIFI AP 
 const char *APssid = "Roombot";
